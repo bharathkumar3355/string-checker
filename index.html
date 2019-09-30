@@ -41,41 +41,30 @@
       <!--Rows have columns - column 1 (7/12) -->
       <div class="col-md-7 mb-4">
 
-        <h2>Interactive app!</h2>
+        <h2>String Checker</h2>
         <hr>
+        <small>Give a courseName and maxLength, display characters remaining</small>
 
         <fieldset class="mt-4">
-          <label for="guest">Enter your name (2 to 40 characters):</label>
-          <input id="guest" type="text" minlength="2" maxlength="40" value="Lilly">
+          <label for="courseName">Enter your course name (2 to 40 characters):</label>
+          <input id="courseName" type="text" minlength="2" maxlength="40" value="web-apps" placeholder=" course name">
         </fieldset>
 
         <fieldset class="mt-4">
-          <label for="firstNumber">Enter first number (1 to 100):</label>
-          <input id="firstNumber" type="number" min="1" max="100" value=7>
-          <span id="firstWarning" class="text-danger"></span>
+          <label for="maxLength">Enter maximum length (1 to 40):</label>
+          <input id="maxLength" type="number" min="1" max="40" value="40">
         </fieldset>
 
         <fieldset class="mt-4">
-          <label for="secondNumber">Enter second number (1 to 100):</label>
-          <input id="secondNumber" type="number" min="1" max="100" value="12">
-          <span id="secondWarning" class="text-danger"></span>
+          <h5 id="result"></h5>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <button id="submit" class="btn btn-primary" >Submit</button>
         </fieldset>
 
       </div>
       <!--end column 1-->
-
-      <!--column 2 (5/12) -->
-      <div class="col-md-5 mb-4">
-        <h2>Try these:</h2>
-        <hr>
-        <button id="addButton" class="btn btn-primary">Add</button>
-        <button id="getJokeButton" class="btn btn-success">Get Joke</button>
-        <button id="clicker" class="btn btn-indigo">Coming soon!</button>
-        <hr>
-        <p id="result"></p>
-
-      </div>
-      <!-- end column 2-->
 
     </div>
     <!-- end row 1 -->
@@ -87,9 +76,9 @@
     <div class="container">
       <span class="text-muted">Right-click / Inspect / Console</span>
       &#9670;
-      <a href="https://profcase.github.io/js-gui/">Demo</a>
+      <a href="https://github.com/anil-bomma/string-checker">Demo</a>
       &#9670;
-      <a href="https://github.com/profcase/js-gui">Source</a>
+      <a href="https://github.com/anil-bomma/string-checker">Source</a>
     </div>
   </footer>
 
