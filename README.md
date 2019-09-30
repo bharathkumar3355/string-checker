@@ -1,11 +1,11 @@
-# js-gui
+# string-checker
 
-> JavaScript is a great language for writing and testing quick apps with user interaction
+> 	Given a courseName and maxLength, display characters remaining
 
 ## Links
 
-- [Demo](https://profcase.github.io/js-gui/)
-- [Source](https://github.com/profcase/js-gui)
+- [Demo](https://anil-bomma.github.io/string-checker/)
+- [Source](https://github.com/anil-bomma/string-checker)
 
 ## Requirements
 
